@@ -1,0 +1,3 @@
+for _,c in pairs(getconnections(game:GetService("ScriptContext").Error)) do
+    c:Disable()
+end
